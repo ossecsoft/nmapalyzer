@@ -1,2 +1,4 @@
 # nmapalyzer
-Nmap analysis of packages -Reverse engineering of packages to scan data
+
+Tool to identify the data packages sent by NMAP 
+Reverse engineering of nmap TCP sent packages to a machine
