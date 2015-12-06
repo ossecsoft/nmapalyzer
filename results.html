@@ -14,16 +14,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>Ali</o:Author>
   <o:LastAuthor>Ali</o:LastAuthor>
-  <o:Revision>72</o:Revision>
-  <o:TotalTime>182</o:TotalTime>
+  <o:Revision>90</o:Revision>
+  <o:TotalTime>268</o:TotalTime>
   <o:Created>2015-12-04T19:39:00Z</o:Created>
-  <o:LastSaved>2015-12-05T09:26:00Z</o:LastSaved>
+  <o:LastSaved>2015-12-06T09:38:00Z</o:LastSaved>
   <o:Pages>2</o:Pages>
-  <o:Words>769</o:Words>
-  <o:Characters>4386</o:Characters>
-  <o:Lines>36</o:Lines>
-  <o:Paragraphs>10</o:Paragraphs>
-  <o:CharactersWithSpaces>5145</o:CharactersWithSpaces>
+  <o:Words>916</o:Words>
+  <o:Characters>5223</o:Characters>
+  <o:Lines>43</o:Lines>
+  <o:Paragraphs>12</o:Paragraphs>
+  <o:CharactersWithSpaces>6127</o:CharactersWithSpaces>
   <o:Version>12.00</o:Version>
  </o:DocumentProperties>
 </xml><![endif]-->
@@ -32,6 +32,8 @@ xmlns="http://www.w3.org/TR/REC-html40">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
   <w:Zoom>90</w:Zoom>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
   <w:TrackFormatting/>
   <w:ValidateAgainstSchemas/>
@@ -377,6 +379,19 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	font-family:"Times New Roman","serif";
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
+a:link, span.MsoHyperlink
+	{mso-style-priority:99;
+	color:blue;
+	mso-themecolor:hyperlink;
+	text-decoration:underline;
+	text-underline:single;}
+a:visited, span.MsoHyperlinkFollowed
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	color:purple;
+	mso-themecolor:followedhyperlink;
+	text-decoration:underline;
+	text-underline:single;}
 p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
 	{mso-style-noshow:yes;
 	mso-style-priority:99;
@@ -406,6 +421,12 @@ span.PlainTextChar
 	mso-hansi-font-family:Consolas;
 	mso-bidi-font-family:Arial;
 	mso-bidi-theme-font:minor-bidi;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
+span.GramE
+	{mso-style-name:"";
+	mso-gram-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -461,14 +482,14 @@ table.MsoTableGrid
 	font-family:"Times New Roman","serif";}
 </style>
 <![endif]--><!--[if gte mso 9]><xml>
- <o:shapedefaults v:ext="edit" spidmax="6146"/>
+ <o:shapedefaults v:ext="edit" spidmax="7170"/>
 </xml><![endif]--><!--[if gte mso 9]><xml>
  <o:shapelayout v:ext="edit">
   <o:idmap v:ext="edit" data="1"/>
  </o:shapelayout></xml><![endif]-->
 </head>
 
-<body lang=EN-US style='tab-interval:.5in'>
+<body lang=EN-US link=blue vlink=purple style='tab-interval:.5in'>
 
 <div class=Section1>
 
@@ -479,7 +500,7 @@ mso-fareast-font-family:"Times New Roman"'>NMAPalyzer tests result<o:p></o:p></s
 mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:16.0pt;font-family:"Arial Unicode MS","sans-serif"'>Server_1
-[ LOCAL NETWORK &#8211; ARP ENABLE ]<o:p></o:p></span></b></p>
+<span class=GramE>[ LOCAL</span> NETWORK &#8211; ARP ENABLE ]<o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
 
@@ -493,7 +514,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>192.168.232.128<o:p></o:p></span></p>
+  style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>192.168.232.138<o:p></o:p></span></p>
   </td>
   <td width=204 valign=top style='width:153.0pt;border:solid black 1.0pt;
   mso-border-themecolor:text1;border-left:none;mso-border-left-alt:solid black .5pt;
@@ -501,17 +522,18 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>CentOS
-  6.7 x32<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>CentOS</span></span><span
+  style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'> 6.7 x32<o:p></o:p></span></p>
   </td>
   <td width=294 valign=top style='width:220.5pt;border:solid black 1.0pt;
   mso-border-themecolor:text1;border-left:none;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>Linux
-  localhost.localdomain 2.6.32-573.el6.i686 #1 SMP Thu Jul 23 12:37:35 UTC 2015
-  i686 i686 i386 GNU/Linux<o:p></o:p></span></p>
+  <span class=SpellE>localhost.localdomain</span> 2.6.32-573.el6.i686 #1 SMP
+  Thu Jul 23 12:37:35 UTC 2015 i686 <span class=SpellE>i686</span> i386
+  GNU/Linux<o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:49.45pt'>
@@ -519,8 +541,10 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-themecolor:text1;border-top:none;mso-border-top-alt:solid black .5pt;
   mso-border-top-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt;height:49.45pt'>
-  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>WebServer:
-  httpd [Apache/2.2.15 (Unix)]<o:p></o:p></span></p>
+  <p class=MsoNormal><span class=SpellE><span style='font-size:11.0pt;
+  font-family:"Arial Unicode MS","sans-serif"'>WebServer</span></span><span
+  style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>: <span
+  class=SpellE>httpd</span> [Apache/2.2.15 (Unix)]<o:p></o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
   </td>
@@ -531,7 +555,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt;height:49.45pt'>
   <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>SSH:
-  sshd [ OpenSSH 5.3p1 &#8211; OpenSSL 1.0.1e-fips ]<o:p></o:p></span></p>
+  <span class=SpellE>sshd</span> [ <span class=SpellE>OpenSSH</span> 5.3p1 &#8211;
+  <span class=SpellE>OpenSSL</span> 1.0.1e-fips ]<o:p></o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
   </td>
@@ -542,7 +567,9 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt;height:49.45pt'>
   <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>DB:
-  mysqld [ MySQL 5.1.73 redhat-linux-gnu version 14.14 ]<o:p></o:p></span></p>
+  <span class=SpellE>mysqld</span> [ <span class=SpellE>MySQL</span> 5.1.73 <span
+  class=SpellE>redhat</span>-<span class=SpellE>linux</span>-<span
+  class=SpellE>gnu</span> version 14.14 ]<o:p></o:p></span></p>
   <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
@@ -590,14 +617,14 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>ICMP<o:p></o:p></span></p>
   </td>
-  <td width=96 valign=top style='width:1.0in;border:solid black 1.0pt;
+  <td width=108 valign=top style='width:81.0pt;border:solid black 1.0pt;
   mso-border-themecolor:text1;border-left:none;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>SYN/ACK<o:p></o:p></span></p>
   </td>
-  <td width=258 valign=top style='width:193.5pt;border:solid black 1.0pt;
+  <td width=246 valign=top style='width:184.5pt;border:solid black 1.0pt;
   mso-border-themecolor:text1;border-left:none;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
@@ -657,8 +684,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>ACCEPT<o:p></o:p></span></p>
   </td>
-  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
@@ -666,7 +693,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>ACCEPT<o:p></o:p></span></p>
   </td>
-  <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
+  <td width=246 valign=top style='width:184.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
@@ -685,7 +712,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="captured_files/server_1_test_1.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:2'>
@@ -711,10 +739,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -735,8 +765,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>ACCEPT<o:p></o:p></span></p>
   </td>
-  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
@@ -744,7 +774,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>ACCEPT<o:p></o:p></span></p>
   </td>
-  <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
+  <td width=246 valign=top style='width:184.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
@@ -763,7 +793,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="captured_files/server_1_test_2.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:3'>
@@ -789,10 +820,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -812,8 +845,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>ACCEPT<o:p></o:p></span></p>
   </td>
-  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
@@ -821,7 +854,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>ACCEPT<o:p></o:p></span></p>
   </td>
-  <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
+  <td width=246 valign=top style='width:184.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
@@ -840,7 +873,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="captured_files/server_1_test_3.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:4'>
@@ -866,10 +900,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -889,8 +925,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>DROP<o:p></o:p></span></p>
   </td>
-  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
@@ -898,7 +934,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>ACCEPT<o:p></o:p></span></p>
   </td>
-  <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
+  <td width=246 valign=top style='width:184.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
@@ -917,7 +953,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="captured_files/server_1_test_4.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:5'>
@@ -943,10 +980,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -966,8 +1005,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>DROP<o:p></o:p></span></p>
   </td>
-  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
@@ -975,7 +1014,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>DROP<o:p></o:p></span></p>
   </td>
-  <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
+  <td width=246 valign=top style='width:184.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
@@ -992,7 +1031,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="captured_files/server_1_test_5.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:6'>
@@ -1018,10 +1058,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1041,8 +1083,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>DROP<o:p></o:p></span></p>
   </td>
-  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
@@ -1050,7 +1092,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>DROP<o:p></o:p></span></p>
   </td>
-  <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
+  <td width=246 valign=top style='width:184.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
@@ -1067,7 +1109,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="captured_files/server_1_test_6.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:7'>
@@ -1093,10 +1136,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1105,7 +1150,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>Open/Default [Remote Allowed]<o:p></o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'>Open/Default [Remote
+  Allowed]<o:p></o:p></span></p>
   </td>
   <td width=102 valign=top style='width:76.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1116,8 +1162,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>DROP<o:p></o:p></span></p>
   </td>
-  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
@@ -1125,7 +1171,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>DROP<o:p></o:p></span></p>
   </td>
-  <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
+  <td width=246 valign=top style='width:184.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
@@ -1142,7 +1188,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="captured_files/server_1_test_7.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:8'>
@@ -1168,10 +1215,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1192,8 +1241,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>DROP<o:p></o:p></span></p>
   </td>
-  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
@@ -1201,7 +1250,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>DROP<o:p></o:p></span></p>
   </td>
-  <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
+  <td width=246 valign=top style='width:184.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
@@ -1218,7 +1267,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="captured_files/server_1_test_8.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:9'>
@@ -1244,10 +1294,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1268,24 +1320,26 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>ACCEPT<o:p></o:p></span></p>
   </td>
-  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='mso-fareast-font-family:"Times New Roman";color:red'>DROP<o:p></o:p></span></b></p>
-  </td>
-  <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
+  <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='mso-fareast-font-family:"Times New Roman";color:red'>Too many
-  fingerprints match this host to give specific OS details<o:p></o:p></span></b></p>
+  style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
+  mso-highlight:yellow'>DROP<o:p></o:p></span></b></p>
+  </td>
+  <td width=246 valign=top style='width:184.5pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
+  mso-highlight:yellow'>Too many fingerprints match this host to give specific
+  OS details<o:p></o:p></span></b></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1293,8 +1347,9 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='mso-fareast-font-family:"Times New Roman";color:red'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="captured_files/server_1_test_9.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:10'>
@@ -1341,8 +1396,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>DROP<o:p></o:p></span></p>
   </td>
-  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
@@ -1350,7 +1405,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>ACCEPT<o:p></o:p></span></p>
   </td>
-  <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
+  <td width=246 valign=top style='width:184.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
@@ -1367,7 +1422,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="captured_files/server_1_test_10.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:11'>
@@ -1414,8 +1470,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>DROP<o:p></o:p></span></p>
   </td>
-  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
@@ -1423,7 +1479,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>ACCEPT<o:p></o:p></span></p>
   </td>
-  <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
+  <td width=246 valign=top style='width:184.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
@@ -1442,7 +1498,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="captured_files/server_1_test_11.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:12'>
@@ -1468,10 +1525,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1491,8 +1550,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>DROP<o:p></o:p></span></p>
   </td>
-  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
@@ -1500,7 +1559,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>ACCEPT<o:p></o:p></span></p>
   </td>
-  <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
+  <td width=246 valign=top style='width:184.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
@@ -1519,7 +1578,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="captured_files/server_1_test_12.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:13'>
@@ -1567,8 +1627,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>DROP<o:p></o:p></span></p>
   </td>
-  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
@@ -1576,7 +1636,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>ACCEPT<o:p></o:p></span></p>
   </td>
-  <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
+  <td width=246 valign=top style='width:184.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
@@ -1595,7 +1655,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="captured_files/server_1_test_13.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:14;height:20.2pt'>
@@ -1642,8 +1703,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>ACCEPT<o:p></o:p></span></p>
   </td>
-  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
@@ -1651,7 +1712,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>ACCEPT<o:p></o:p></span></p>
   </td>
-  <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
+  <td width=246 valign=top style='width:184.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
@@ -1668,7 +1729,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt;height:20.2pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="captured_files/server_1_test_14.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:15'>
@@ -1694,10 +1756,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1717,16 +1781,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>ACCEPT<o:p></o:p></span></p>
   </td>
-  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='mso-fareast-font-family:"Times New Roman";color:red'>DROP ACK<o:p></o:p></span></b></p>
-  </td>
-  <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
+  <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
@@ -1734,8 +1789,19 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
   style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
-  mso-highlight:yellow'>Uknow fingerprint!</span></b><b><span style='mso-fareast-font-family:
-  "Times New Roman";color:red'><o:p></o:p></span></b></p>
+  mso-highlight:yellow'>ONLY DROP ACK<o:p></o:p></span></b></p>
+  </td>
+  <td width=246 valign=top style='width:184.5pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><b><span
+  style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
+  mso-highlight:yellow'>Uknow</span></b></span><b><span style='mso-fareast-font-family:
+  "Times New Roman";color:red;background:yellow;mso-highlight:yellow'>
+  fingerprint!<o:p></o:p></span></b></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1743,8 +1809,10 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='mso-fareast-font-family:"Times New Roman";color:red'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="captured_files/server_1_test_15.pcapng">Download</a><b><span
+  style='color:red'><o:p></o:p></span></b></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:16;mso-yfti-lastrow:yes'>
@@ -1770,10 +1838,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1793,26 +1863,31 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>ACCEPT<o:p></o:p></span></p>
   </td>
-  <td width=96 valign=top style='width:1.0in;border-top:none;border-left:none;
-  border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='mso-fareast-font-family:"Times New Roman";color:red'>DROP<o:p></o:p></span></b></p>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='mso-fareast-font-family:"Times New Roman";color:red'>SYN<o:p></o:p></span></b></p>
-  </td>
-  <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
+  <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
   border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='mso-fareast-font-family:"Times New Roman";color:red'>Too many
-  fingerprints match this host to give specific OS details<o:p></o:p></span></b></p>
+  style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
+  mso-highlight:yellow'>ONLY DROP<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
+  mso-highlight:yellow'>SYN<o:p></o:p></span></b></p>
+  </td>
+  <td width=246 valign=top style='width:184.5pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
+  mso-highlight:yellow'>Running: Linux 2.6.X|3.X<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
+  mso-highlight:yellow'>OS details: Linux 2.6.32 - 3.10<o:p></o:p></span></b></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1820,8 +1895,10 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='mso-fareast-font-family:"Times New Roman";color:red'><o:p>&nbsp;</o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="captured_files/server_1_test_16.pcapng">Download</a><b><span
+  style='color:red'><o:p></o:p></span></b></span></p>
   </td>
  </tr>
 </table>
@@ -1833,7 +1910,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><b><span style='font-size:16.0pt;font-family:"Arial Unicode MS","sans-serif"'>Server_2
-[ Foreign Network - ARP DISABLED ]<o:p></o:p></span></b></p>
+<span class=GramE>[ Foreign</span> Network - ARP DISABLED ]<o:p></o:p></span></b></p>
 
 <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
 
@@ -1855,17 +1932,18 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>CentOS
-  6.5 x64<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>CentOS</span></span><span
+  style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'> 6.5 x64<o:p></o:p></span></p>
   </td>
   <td width=294 valign=top style='width:220.5pt;border:solid black 1.0pt;
   mso-border-themecolor:text1;border-left:none;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>Linux
-  localhost.localdomain 2.6.32-573.el6.i686 #1 SMP Thu Jul 23 12:37:35 UTC 2015
-  i686 i686 i386 GNU/Linux<o:p></o:p></span></p>
+  <span class=SpellE>localhost.localdomain</span> 2.6.32-573.el6.i686 #1 SMP
+  Thu Jul 23 12:37:35 UTC 2015 i686 <span class=SpellE>i686</span> i386
+  GNU/Linux<o:p></o:p></span></p>
   </td>
  </tr>
  <tr style='mso-yfti-irow:1;mso-yfti-lastrow:yes;height:49.45pt'>
@@ -1873,8 +1951,10 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-themecolor:text1;border-top:none;mso-border-top-alt:solid black .5pt;
   mso-border-top-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt;height:49.45pt'>
-  <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>WebServer:
-  httpd [Apache/2.2.15 (Unix)]<o:p></o:p></span></p>
+  <p class=MsoNormal><span class=SpellE><span style='font-size:11.0pt;
+  font-family:"Arial Unicode MS","sans-serif"'>WebServer</span></span><span
+  style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>: <span
+  class=SpellE>httpd</span> [Apache/2.2.15 (Unix)]<o:p></o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
   </td>
@@ -1885,7 +1965,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt;height:49.45pt'>
   <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>SSH:
-  sshd [ OpenSSH 5.3p1 &#8211; OpenSSL 1.0.1e-fips ]<o:p></o:p></span></p>
+  <span class=SpellE>sshd</span> [ <span class=SpellE>OpenSSH</span> 5.3p1 &#8211;
+  <span class=SpellE>OpenSSL</span> 1.0.1e-fips ]<o:p></o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
   </td>
@@ -1896,7 +1977,9 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt;height:49.45pt'>
   <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>DB:
-  mysqld [ MySQL 5.1.73 redhat-linux-gnu version 14.14 ]<o:p></o:p></span></p>
+  <span class=SpellE>mysqld</span> [ <span class=SpellE>MySQL</span> 5.1.73 <span
+  class=SpellE>redhat</span>-<span class=SpellE>linux</span>-<span
+  class=SpellE>gnu</span> version 14.14 ]<o:p></o:p></span></p>
   <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
   </td>
  </tr>
@@ -2065,10 +2148,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -2143,10 +2228,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -2220,10 +2307,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -2297,10 +2386,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -2372,10 +2463,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -2447,10 +2540,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -2523,10 +2618,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -2599,10 +2696,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -2630,7 +2729,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='mso-fareast-font-family:"Times New Roman";color:red'>DROP<o:p></o:p></span></b></p>
+  style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
+  mso-highlight:yellow'>DROP<o:p></o:p></span></b></p>
   </td>
   <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -2639,8 +2739,9 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='mso-fareast-font-family:"Times New Roman";color:red'>Too many
-  fingerprints match this host to give specific OS details<o:p></o:p></span></b></p>
+  style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
+  mso-highlight:yellow'>Too many fingerprints match this host to give specific
+  OS details<o:p></o:p></span></b></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -2823,10 +2924,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -3049,10 +3152,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -3079,7 +3184,8 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='mso-fareast-font-family:"Times New Roman";color:red'>DROP ACK<o:p></o:p></span></b></p>
+  style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
+  mso-highlight:yellow'>DROP ACK<o:p></o:p></span></b></p>
   </td>
   <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -3090,8 +3196,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><b><span
   style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
   mso-highlight:yellow'>Too many fingerprints match this host to give specific
-  OS details</span></b><b><span style='mso-fareast-font-family:"Times New Roman";
-  color:red'><o:p></o:p></span></b></p>
+  OS details<o:p></o:p></span></b></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -3128,10 +3233,12 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature Off<o:p></o:p></span></p>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens Prod<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerSignature</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Off<o:p></o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>ServerTokens</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Prod<o:p></o:p></span></p>
   </td>
   <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -3158,9 +3265,11 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='mso-fareast-font-family:"Times New Roman";color:red'>DROP<o:p></o:p></span></b></p>
+  style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
+  mso-highlight:yellow'>DROP<o:p></o:p></span></b></p>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='mso-fareast-font-family:"Times New Roman";color:red'>SYN<o:p></o:p></span></b></p>
+  style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
+  mso-highlight:yellow'>SYN<o:p></o:p></span></b></p>
   </td>
   <td width=258 valign=top style='width:193.5pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -3169,8 +3278,9 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><b><span
-  style='mso-fareast-font-family:"Times New Roman";color:red'>Too many
-  fingerprints match this host to give specific OS details<o:p></o:p></span></b></p>
+  style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
+  mso-highlight:yellow'>Too many fingerprints match this host to give specific
+  OS details<o:p></o:p></span></b></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -3193,7 +3303,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>Updated
-in 2015/12/5 12:56 PM (UTC +3:30)<o:p></o:p></span></p>
+in 2015/12/6 13:10 PM (UTC +3:30)<o:p></o:p></span></p>
 
 </div>
 
