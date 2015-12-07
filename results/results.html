@@ -14,16 +14,16 @@ xmlns="http://www.w3.org/TR/REC-html40">
  <o:DocumentProperties>
   <o:Author>Ali</o:Author>
   <o:LastAuthor>Ali</o:LastAuthor>
-  <o:Revision>90</o:Revision>
-  <o:TotalTime>268</o:TotalTime>
+  <o:Revision>105</o:Revision>
+  <o:TotalTime>385</o:TotalTime>
   <o:Created>2015-12-04T19:39:00Z</o:Created>
-  <o:LastSaved>2015-12-06T09:38:00Z</o:LastSaved>
+  <o:LastSaved>2015-12-07T10:29:00Z</o:LastSaved>
   <o:Pages>2</o:Pages>
-  <o:Words>916</o:Words>
-  <o:Characters>5223</o:Characters>
-  <o:Lines>43</o:Lines>
-  <o:Paragraphs>12</o:Paragraphs>
-  <o:CharactersWithSpaces>6127</o:CharactersWithSpaces>
+  <o:Words>1132</o:Words>
+  <o:Characters>6457</o:Characters>
+  <o:Lines>53</o:Lines>
+  <o:Paragraphs>15</o:Paragraphs>
+  <o:CharactersWithSpaces>7574</o:CharactersWithSpaces>
   <o:Version>12.00</o:Version>
  </o:DocumentProperties>
 </xml><![endif]-->
@@ -367,6 +367,20 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	mso-generic-font-family:modern;
 	mso-font-pitch:fixed;
 	mso-font-signature:-520092929 1073806591 9 0 415 0;}
+@font-face
+	{font-family:"Comic Sans MS";
+	panose-1:3 15 7 2 3 3 2 2 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:script;
+	mso-font-pitch:variable;
+	mso-font-signature:647 1073741843 0 0 159 0;}
+@font-face
+	{font-family:"Arial Narrow";
+	panose-1:2 11 6 6 2 2 2 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:647 2048 0 0 159 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -379,8 +393,33 @@ xmlns="http://www.w3.org/TR/REC-html40">
 	font-family:"Times New Roman","serif";
 	mso-fareast-font-family:"Times New Roman";
 	mso-fareast-theme-font:minor-fareast;}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Header Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.25in right 6.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Footer Char";
+	margin:0in;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	tab-stops:center 3.25in right 6.5in;
+	font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;}
 a:link, span.MsoHyperlink
-	{mso-style-priority:99;
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
 	color:blue;
 	mso-themecolor:hyperlink;
 	text-decoration:underline;
@@ -405,6 +444,36 @@ p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
 	mso-fareast-theme-font:minor-latin;
 	mso-bidi-font-family:Arial;
 	mso-bidi-theme-font:minor-bidi;}
+span.HeaderChar
+	{mso-style-name:"Header Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Header;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
+span.FooterChar
+	{mso-style-name:"Footer Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:Footer;
+	mso-ansi-font-size:12.0pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:"Times New Roman","serif";
+	mso-ascii-font-family:"Times New Roman";
+	mso-fareast-font-family:"Times New Roman";
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:"Times New Roman";
+	mso-bidi-font-family:"Times New Roman";}
 span.PlainTextChar
 	{mso-style-name:"Plain Text Char";
 	mso-style-noshow:yes;
@@ -482,7 +551,7 @@ table.MsoTableGrid
 	font-family:"Times New Roman","serif";}
 </style>
 <![endif]--><!--[if gte mso 9]><xml>
- <o:shapedefaults v:ext="edit" spidmax="7170"/>
+ <o:shapedefaults v:ext="edit" spidmax="12290"/>
 </xml><![endif]--><!--[if gte mso 9]><xml>
  <o:shapelayout v:ext="edit">
   <o:idmap v:ext="edit" data="1"/>
@@ -499,10 +568,42 @@ mso-fareast-font-family:"Times New Roman"'>NMAPalyzer tests result<o:p></o:p></s
 <p class=MsoNormal><span style='font-size:16.0pt;font-family:"Eras Bold ITC","sans-serif";
 mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><b><span style='font-size:16.0pt;font-family:"Arial Unicode MS","sans-serif"'>Server_1
-<span class=GramE>[ LOCAL</span> NETWORK &#8211; ARP ENABLE ]<o:p></o:p></span></b></p>
+<p class=MsoNormal><b><span style='font-size:16.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></b></p>
 
-<p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
+<p class=MsoNormal><b><span style='font-size:16.0pt;font-family:"Arial Narrow","sans-serif";
+mso-fareast-font-family:"Arial Unicode MS";mso-bidi-font-family:"Arial Unicode MS"'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;font-family:"Arial Narrow","sans-serif";
+mso-fareast-font-family:"Arial Unicode MS";mso-bidi-font-family:"Arial Unicode MS"'>Note:
+&#8220;<span class=SpellE><span style='color:red;background:yellow;mso-highlight:
+yellow'>nmap</span></span><span style='color:red;background:yellow;mso-highlight:
+yellow'> &#8211;O &#8211;v &lt;<span class=SpellE>ipaddress</span>&gt;</span>&#8221;
+used in each test and the only different is on server <span class=SpellE>iptables</span>
+configuration to drop or access the packets.<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;font-family:"Arial Narrow","sans-serif";
+mso-fareast-font-family:"Arial Unicode MS";mso-bidi-font-family:"Arial Unicode MS"'>Note:
+Default Apache server response is including signature &#8220;<span
+style='color:red;background:yellow;mso-highlight:yellow'>Apache/2.2.15 (<span
+class=SpellE>CentOS</span>)</span>&#8221;.<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:14.0pt;font-family:"Arial Narrow","sans-serif";
+mso-fareast-font-family:"Arial Unicode MS";mso-bidi-font-family:"Arial Unicode MS"'>Note:
+Capture filter set to &#8220;<span style='color:red;background:yellow;
+mso-highlight:yellow'>host 192.168.232.1</span>&#8221; on <span class=SpellE>wireshark</span>.
+To Analysis the captured files, apply &#8220;<span class=SpellE><span
+style='color:red;background:yellow;mso-highlight:yellow'>ip.addr</span></span><span
+style='color:red;background:yellow;mso-highlight:yellow'> == 192.168.232.138
+&amp;&amp; <span class=SpellE>ip.addr</span> == 192.168.232.1</span>&#8221;
+filter.<o:p></o:p></span></b></p>
+
+<p class=MsoNormal><b><span style='font-size:16.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></b></p>
+
+<p class=MsoNormal><span style='font-family:"Comic Sans MS";mso-fareast-font-family:
+"Arial Unicode MS";mso-bidi-font-family:"Arial Unicode MS"'>Server_1 <span
+class=GramE>[ LOCAL</span> NETWORK &#8211; ARP ENABLE ]<o:p></o:p></span></p>
+
+<p class=MsoNormal><b><span style='font-size:16.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></b></p>
 
 <table class=MsoTableGrid border=1 cellspacing=0 cellpadding=0
  style='border-collapse:collapse;border:none;mso-border-alt:solid black .5pt;
@@ -635,6 +736,14 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-themecolor:text1;border-left:none;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>IPTables</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Configuration<o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;border-left:none;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>Captured Data<o:p></o:p></span></p>
   </td>
@@ -704,6 +813,16 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>OS details: Linux 2.6.32 -
   3.10<o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="iptables_rules/server_1_test_1.iptables">Download</a><o:p></o:p></span></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -794,6 +913,16 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'><a
+  href="iptables_rules/server_1_test_2.iptables">Download</a><o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
   href="captured_files/server_1_test_2.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
@@ -865,6 +994,16 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>OS details: Linux 2.6.32 -
   3.10<o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="iptables_rules/server_1_test_3.iptables">Download</a><o:p></o:p></span></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -954,6 +1093,16 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'><a
+  href="iptables_rules/server_1_test_4.iptables">Download</a><o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
   href="captured_files/server_1_test_4.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
@@ -1032,6 +1181,16 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'><a
+  href="iptables_rules/server_1_test_5.iptables">Download</a><o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
   href="captured_files/server_1_test_5.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
@@ -1101,6 +1260,16 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>Too many fingerprints match
   this host to give specific OS details<o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="iptables_rules/server_1_test_6.iptables">Download</a><o:p></o:p></span></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1189,6 +1358,16 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'><a
+  href="iptables_rules/server_1_test_7.iptables">Download</a><o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
   href="captured_files/server_1_test_7.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
@@ -1259,6 +1438,16 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>Too many fingerprints match
   this host to give specific OS details<o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="iptables_rules/server_1_test_8.iptables">Download</a><o:p></o:p></span></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1349,6 +1538,16 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'><a
+  href="iptables_rules/server_1_test_9.iptables">Download</a><o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
   href="captured_files/server_1_test_9.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
@@ -1359,80 +1558,6 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>10<o:p></o:p></span></p>
-  </td>
-  <td width=106 valign=top style='width:79.8pt;border-top:none;border-left:
-  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>Closed<o:p></o:p></span></p>
-  </td>
-  <td width=201 valign=top style='width:150.5pt;border-top:none;border-left:
-  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>Closed<o:p></o:p></span></p>
-  </td>
-  <td width=132 valign=top style='width:99.0pt;border-top:none;border-left:
-  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>Closed<o:p></o:p></span></p>
-  </td>
-  <td width=102 valign=top style='width:76.5pt;border-top:none;border-left:
-  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>DROP<o:p></o:p></span></p>
-  </td>
-  <td width=108 valign=top style='width:81.0pt;border-top:none;border-left:
-  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>ACCEPT<o:p></o:p></span></p>
-  </td>
-  <td width=246 valign=top style='width:184.5pt;border-top:none;border-left:
-  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>Too many fingerprints match
-  this host to give specific OS details<o:p></o:p></span></p>
-  </td>
-  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
-  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
-  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
-  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
-  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'><a
-  href="captured_files/server_1_test_10.pcapng">Download</a><o:p></o:p></span></p>
-  </td>
- </tr>
- <tr style='mso-yfti-irow:11'>
-  <td width=106 valign=top style='width:79.8pt;border:solid black 1.0pt;
-  mso-border-themecolor:text1;border-top:none;mso-border-top-alt:solid black .5pt;
-  mso-border-top-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
-  text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>11<o:p></o:p></span></p>
   </td>
   <td width=106 valign=top style='width:79.8pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1499,16 +1624,26 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'><a
+  href="iptables_rules/server_1_test_10.iptables">Download</a><o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
   href="captured_files/server_1_test_11.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:12'>
+ <tr style='mso-yfti-irow:11'>
   <td width=106 valign=top style='width:79.8pt;border:solid black 1.0pt;
   mso-border-themecolor:text1;border-top:none;mso-border-top-alt:solid black .5pt;
   mso-border-top-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>12<o:p></o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'>11<o:p></o:p></span></p>
   </td>
   <td width=106 valign=top style='width:79.8pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1579,16 +1714,26 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'><a
+  href="iptables_rules/server_1_test_11.iptables">Download</a><o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
   href="captured_files/server_1_test_12.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:13'>
+ <tr style='mso-yfti-irow:12'>
   <td width=106 valign=top style='width:79.8pt;border:solid black 1.0pt;
   mso-border-themecolor:text1;border-top:none;mso-border-top-alt:solid black .5pt;
   mso-border-top-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>13<o:p></o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'>12<o:p></o:p></span></p>
   </td>
   <td width=106 valign=top style='width:79.8pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1656,16 +1801,26 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'><a
+  href="iptables_rules/server_1_test_12.iptables">Download</a><o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
   href="captured_files/server_1_test_13.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:14;height:20.2pt'>
+ <tr style='mso-yfti-irow:13;height:20.2pt'>
   <td width=106 valign=top style='width:79.8pt;border:solid black 1.0pt;
   mso-border-themecolor:text1;border-top:none;mso-border-top-alt:solid black .5pt;
   mso-border-top-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt;height:20.2pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>14<o:p></o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'>13<o:p></o:p></span></p>
   </td>
   <td width=106 valign=top style='width:79.8pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1730,16 +1885,26 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   text1;padding:0in 5.4pt 0in 5.4pt;height:20.2pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'><a
+  href="iptables_rules/server_1_test_13.iptables">Download</a><o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt;height:20.2pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
   href="captured_files/server_1_test_14.pcapng">Download</a><o:p></o:p></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:15'>
+ <tr style='mso-yfti-irow:14'>
   <td width=106 valign=top style='width:79.8pt;border:solid black 1.0pt;
   mso-border-themecolor:text1;border-top:none;mso-border-top-alt:solid black .5pt;
   mso-border-top-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>15<o:p></o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'>14<o:p></o:p></span></p>
   </td>
   <td width=106 valign=top style='width:79.8pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1797,11 +1962,33 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
-  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><b><span
+  <p class=MsoNormal align=center style='text-align:center'><b><span
   style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
-  mso-highlight:yellow'>Uknow</span></b></span><b><span style='mso-fareast-font-family:
-  "Times New Roman";color:red;background:yellow;mso-highlight:yellow'>
-  fingerprint!<o:p></o:p></span></b></p>
+  mso-highlight:yellow'>2015/12/6: <span class=SpellE>Uknow</span> fingerprint!
+  </span></b><b><span style='mso-fareast-font-family:"Times New Roman"'>[<a
+  href="captured_files/server_1_test_14.fingerprint"><span style='mso-fareast-font-family:
+  "Times New Roman";mso-fareast-theme-font:minor-fareast'>D</span>ownload
+  fingerprint</a>]<span style='color:red;background:yellow;mso-highlight:yellow'><o:p></o:p></span></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
+  mso-highlight:yellow'>2015/12/7: Running: Linux 2.6.X|3.X<o:p></o:p></span></b></p>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
+  mso-highlight:yellow'>OS details: Linux 2.6.32 - 3.10<o:p></o:p></span></b></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
+  href="iptables_rules/server_1_test_14.iptables">Download</a><o:p></o:p></span></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1815,13 +2002,13 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   style='color:red'><o:p></o:p></span></b></span></p>
   </td>
  </tr>
- <tr style='mso-yfti-irow:16;mso-yfti-lastrow:yes'>
+ <tr style='mso-yfti-irow:15;mso-yfti-lastrow:yes'>
   <td width=106 valign=top style='width:79.8pt;border:solid black 1.0pt;
   mso-border-themecolor:text1;border-top:none;mso-border-top-alt:solid black .5pt;
   mso-border-top-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
-  style='mso-fareast-font-family:"Times New Roman"'>16<o:p></o:p></span></p>
+  style='mso-fareast-font-family:"Times New Roman"'>15<o:p></o:p></span></p>
   </td>
   <td width=106 valign=top style='width:79.8pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -1897,6 +2084,16 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'><a
+  href="iptables_rules/server_1_test_15.iptables">Download</a><o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><a
   href="captured_files/server_1_test_16.pcapng">Download</a><b><span
   style='color:red'><o:p></o:p></span></b></span></p>
   </td>
@@ -1909,8 +2106,9 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
 
-<p class=MsoNormal><b><span style='font-size:16.0pt;font-family:"Arial Unicode MS","sans-serif"'>Server_2
-<span class=GramE>[ Foreign</span> Network - ARP DISABLED ]<o:p></o:p></span></b></p>
+<p class=MsoNormal><span style='font-family:"Comic Sans MS";mso-fareast-font-family:
+"Arial Unicode MS";mso-bidi-font-family:"Arial Unicode MS"'>Server_2 <span
+class=GramE>[ Foreign</span> Network - ARP DISABLED ]<o:p></o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
 
@@ -2045,6 +2243,14 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   mso-border-themecolor:text1;border-left:none;mso-border-left-alt:solid black .5pt;
   mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
   text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span class=SpellE><span
+  style='mso-fareast-font-family:"Times New Roman"'>IPTables</span></span><span
+  style='mso-fareast-font-family:"Times New Roman"'> Configuration<o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border:solid black 1.0pt;
+  mso-border-themecolor:text1;border-left:none;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>Captured Data<o:p></o:p></span></p>
   </td>
@@ -2114,6 +2320,15 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>OS details: Linux 2.6.32 -
   3.10<o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -2204,6 +2419,15 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
  </tr>
  <tr style='mso-yfti-irow:3'>
   <td width=106 valign=top style='width:79.8pt;border:solid black 1.0pt;
@@ -2273,6 +2497,15 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>OS details: Linux 2.6.32 -
   3.10<o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -2362,6 +2595,15 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
  </tr>
  <tr style='mso-yfti-irow:5'>
   <td width=106 valign=top style='width:79.8pt;border:solid black 1.0pt;
@@ -2439,6 +2681,15 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
  </tr>
  <tr style='mso-yfti-irow:6'>
   <td width=106 valign=top style='width:79.8pt;border:solid black 1.0pt;
@@ -2506,6 +2757,15 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>Too many fingerprints match
   this host to give specific OS details<o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -2594,6 +2854,15 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
  </tr>
  <tr style='mso-yfti-irow:8'>
   <td width=106 valign=top style='width:79.8pt;border:solid black 1.0pt;
@@ -2662,6 +2931,15 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>Too many fingerprints match
   this host to give specific OS details<o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -2752,6 +3030,15 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><b><span
   style='mso-fareast-font-family:"Times New Roman";color:red'><o:p>&nbsp;</o:p></span></b></p>
   </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='mso-fareast-font-family:"Times New Roman";color:red'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
  </tr>
  <tr style='mso-yfti-irow:10'>
   <td width=106 valign=top style='width:79.8pt;border:solid black 1.0pt;
@@ -2815,6 +3102,15 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>Too many fingerprints match
   this host to give specific OS details<o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -2890,6 +3186,15 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>OS details: Linux 2.6.32 -
   3.10<o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -2979,6 +3284,15 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
  </tr>
  <tr style='mso-yfti-irow:13'>
   <td width=106 valign=top style='width:79.8pt;border:solid black 1.0pt;
@@ -3045,6 +3359,15 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'>OS details: Linux 2.6.32 -
   3.10<o:p></o:p></span></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -3128,6 +3451,15 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><span
   style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt;height:20.2pt'>
+  <p class=MsoNormal align=center style='text-align:center'><span
+  style='mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
+  </td>
  </tr>
  <tr style='mso-yfti-irow:15'>
   <td width=106 valign=top style='width:79.8pt;border:solid black 1.0pt;
@@ -3197,6 +3529,15 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   style='mso-fareast-font-family:"Times New Roman";color:red;background:yellow;
   mso-highlight:yellow'>Too many fingerprints match this host to give specific
   OS details<o:p></o:p></span></b></p>
+  </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='mso-fareast-font-family:"Times New Roman";color:red'><o:p>&nbsp;</o:p></span></b></p>
   </td>
   <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
   none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
@@ -3291,6 +3632,15 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
   <p class=MsoNormal align=center style='text-align:center'><b><span
   style='mso-fareast-font-family:"Times New Roman";color:red'><o:p>&nbsp;</o:p></span></b></p>
   </td>
+  <td width=180 valign=top style='width:135.0pt;border-top:none;border-left:
+  none;border-bottom:solid black 1.0pt;mso-border-bottom-themecolor:text1;
+  border-right:solid black 1.0pt;mso-border-right-themecolor:text1;mso-border-top-alt:
+  solid black .5pt;mso-border-top-themecolor:text1;mso-border-left-alt:solid black .5pt;
+  mso-border-left-themecolor:text1;mso-border-alt:solid black .5pt;mso-border-themecolor:
+  text1;padding:0in 5.4pt 0in 5.4pt'>
+  <p class=MsoNormal align=center style='text-align:center'><b><span
+  style='mso-fareast-font-family:"Times New Roman";color:red'><o:p>&nbsp;</o:p></span></b></p>
+  </td>
  </tr>
 </table>
 
@@ -3303,7 +3653,7 @@ mso-fareast-font-family:"Times New Roman"'><o:p>&nbsp;</o:p></span></p>
 <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'><o:p>&nbsp;</o:p></span></p>
 
 <p class=MsoNormal><span style='font-size:11.0pt;font-family:"Arial Unicode MS","sans-serif"'>Updated
-in 2015/12/6 13:10 PM (UTC +3:30)<o:p></o:p></span></p>
+in 2015/12/7 14:00 PM (UTC +3:30)<o:p></o:p></span></p>
 
 </div>
 

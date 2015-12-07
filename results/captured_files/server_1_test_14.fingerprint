@@ -1,0 +1,43 @@
+
+Starting Nmap 7.00 ( https://nmap.org ) at 2015-12-05 02:25 Iran Standard Time
+Initiating ARP Ping Scan at 02:25
+Scanning 192.168.232.128 [1 port]
+Completed ARP Ping Scan at 02:25, 0.11s elapsed (1 total hosts)
+Initiating SYN Stealth Scan at 02:25
+Scanning research.research (192.168.232.128) [1000 ports]
+Discovered open port 80/tcp on 192.168.232.128
+Completed SYN Stealth Scan at 02:25, 0.05s elapsed (1000 total ports)
+Initiating OS detection (try #1) against research.research (192.168.232.128)
+Retrying OS detection (try #2) against research.research (192.168.232.128)
+Retrying OS detection (try #3) against research.research (192.168.232.128)
+Retrying OS detection (try #4) against research.research (192.168.232.128)
+Retrying OS detection (try #5) against research.research (192.168.232.128)
+Nmap scan report for research.research (192.168.232.128)
+Host is up (0.0019s latency).
+Not shown: 999 closed ports
+PORT   STATE SERVICE
+80/tcp open  http
+MAC Address: 00:0C:29:74:C3:45 (VMware)
+No exact OS matches for host (If you know what OS is running on it, see https://
+nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.00%E=4%D=12/5%OT=80%CT=1%CU=39247%PV=Y%DS=1%DC=D%G=Y%M=000C29%T
+OS:M=56621A0A%P=i686-pc-windows-windows)SEQ(SP=103%GCD=1%ISR=10A%TI=Z%CI=Z%
+OS:TS=B)SEQ(SP=102%GCD=1%ISR=10A%TI=Z%CI=Z%II=I%TS=9)OPS(O1=M5B4ST11NW6%O2=
+OS:M5B4ST11NW6%O3=M5B4NNT11NW6%O4=M5B4ST11NW6%O5=M5B4ST11NW6%O6=M5B4ST11)WI
+OS:N(W1=3890%W2=3890%W3=3890%W4=3890%W5=3890%W6=3890)ECN(R=Y%DF=Y%T=40%W=39
+OS:08%O=M5B4NNSNW6%CC=Y%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q=)T2(R=N)T3
+OS:(R=N)T4(R=N)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=N)T7(R=Y%
+OS:DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIP
+OS:L=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=Y%DFI=N%T=40%CD=S)
+
+Uptime guess: 0.288 days (since Fri Dec 04 19:31:19 2015)
+Network Distance: 1 hop
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+Read data files from: C:\Users\Administrator\Desktop\nmap-7.00
+OS detection performed. Please report any incorrect results at https://nmap.org/
+submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 13.34 seconds
+           Raw packets sent: 1173 (59.418KB) | Rcvd: 1119 (52.654KB)
