@@ -2,7 +2,7 @@
 import socket
 import dpkt
 import sys
-pcapReader = dpkt.pcap.Reader(file(sys.argv[1], "rb"))
+pcapReader = dpkt.pcap.Reader(file(sys.argv[1], "rb")) # python file.py file.pcap
 for ts, data in pcapReader:
 	ether = dpkt.ethernet.Ethernet(data)
 	try:
