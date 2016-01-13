@@ -1,0 +1,4 @@
+Total number of packets in the pcap file:  2403
+Total number of ip packets:  2399
+Total number of tcp packets:  2359
+Total number of udp packets:  20
