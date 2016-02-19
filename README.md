@@ -14,6 +14,9 @@ Nmapalyzer is aim to help network admins and security related professionals to u
 ##Project Stage
 This project is at the moment in research and development phase</br>
 
+##Instructions
+Please consult the wiki on how to run the project
+
 ##Release Alpha Version 
 March 2016
 
